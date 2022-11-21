@@ -1,8 +1,9 @@
 # ros2_2022
 ロボットシステム学　（第8回以降の練習リポジトリ）
-
+![test](https://github.com/masaki130/ros2_2022/actions/workflows/test.yml/badge.svg)
 ## 必要なソフトウェア
 * Python
+    * テスト済み：3.7～3.10
 
 ## テスト環境
 * Ubntu:22.04
