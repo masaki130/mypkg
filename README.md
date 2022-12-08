@@ -1,5 +1,5 @@
 # mypkg
-mypkgというリポジトリにros2のパッケージを作成した.
+mypkgというリポジトリにros2のパッケージを作成しました.
 
 # ROS2のパッケージ
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
