@@ -4,11 +4,14 @@ mypkgというリポジトリにros2のパッケージを作成した.
 # ROS2のパッケージ
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
-# パッケージの中身
-* talker.py
-
 # 機能
 * 
+
+# mypkgの導入方法
+```
+$ git clone git@github.com:masaki130/mypkg.git
+$ cd mypkg 
+```
 
 ## 必要なソフトウェア
 * Python:3.10
