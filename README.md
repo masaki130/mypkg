@@ -1,5 +1,14 @@
 # mypkg
-ロボットシステム学の練習リポジトリ　（ros2パッケージ）
+mypkgというリポジトリにros2のパッケージを作成した.
+
+# ROS2のパッケージ
+![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
+
+# パッケージの中身
+* talker.py
+
+# 機能
+* 
 
 ## 必要なソフトウェア
 * Python:3.10
