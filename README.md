@@ -1,7 +1,7 @@
 # ROS2のパッケージ
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
-# mypkg
+# mypkg (マイパッケージ)
 * mypkgという名前のリポジトリに、以下の2つのパッケージを作成した.
   * talker.py
   * listener.py
