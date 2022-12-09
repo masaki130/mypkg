@@ -8,7 +8,7 @@ from std_msgs.msg import Int16
 
 class Talker():
     def __init__(self):
-        self.pub = node.create_publisher(Int16. "countup",10)
+        self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
 rclpy.init()
 node = Node("talker")
