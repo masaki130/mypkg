@@ -12,7 +12,6 @@ class Talker():
         self.n = 0
 rclpy.init()
 node = Node("talker")
-#pub = node.create_publisher(Int16, "countup", 10)
 talker = Talker()
 
 def cb():
