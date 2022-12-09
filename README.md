@@ -16,7 +16,7 @@
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg 
 ```
-#　送受信例
+# 送受信例
 * 送信例
   * 1つ目の端末で以下のコマンドを入力する.
 ```
