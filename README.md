@@ -1,5 +1,5 @@
 # ROS2のパッケージ
-* ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
 # mypkg
 * mypkgという名前のリポジトリに、以下の2つのパッケージを作成した.
