@@ -5,9 +5,11 @@ mypkgというリポジトリにros2のパッケージを作成しました.
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 機能
-* 
+* talker.pyで数字をカウントしてトピックを通じて送信する.
+* listener.pyでトピックからメッセージを受信して、結果を画面に表示する.
 
 # mypkgの導入方法
+* 任意のディレクトリで以下のコマンドを入力すると、pcにmypkgを取り込むことが可能.
 ```
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg 
