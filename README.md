@@ -7,11 +7,11 @@
   * listener.py
 
 # 機能
-* "talker.py"は数字をカウントし、トピックを通じて"listener.py"へ送信する.
+* "talker.py"は、数字をカウントし、トピックを通じて"listener.py"へ送信する.
 * "listener.py"は、トピックから"talker.py"のカウント数を受信し、その結果を画面に表示する.
 
 # mypkgの導入
-* 以下のコマンドを入力して、初期状態のパッケージを作成する.
+* まず以下のコマンドを入力して、初期状態のパッケージを作成する.
 ```
 $ mkdir -p ros2_ws/src
 $ tree ros2_ws/
@@ -20,8 +20,9 @@ $ ros2 pkg create mypkg --build-type ament_python
 $ tree
 ```
 
-* srcの下で以下のコマンドを入力すると、pcにmypkgを取り込むことが可能.
+* 次に以下のコマンドを入力すると、pcにmypkgを取り込むことが可能.
 ```
+$ cd ros2_ws/src
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg 
 ```
