@@ -1,12 +1,15 @@
-# ROS2のパッケージ
+# mypkg(ROS2のパッケージ)
+* mypkgという名前のリポジトリに、以下の2つのパッケージを作成した.
+  * talker.py
+  * listener.py
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 機能
-* talker.pyで数字をカウントしてトピックを通じて送信する.
-* listener.pyでトピックからメッセージを受信して、結果を画面に表示する.
+* talker.pyで数字をカウントし、トピックを通じて送信する.
+* listener.pyでトピックからメッセージを受信し、結果を画面に表示する.
 
 # mypkgの導入
-* 任意のディレクトリで以下のコマンドを入力すると、pcにmypkgという名前のROS2のパッケージを取り込むことが可能.
+* 任意のディレクトリで以下のコマンドを入力すると、pcにmypkgを取り込むことが可能.
 ```
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg 
