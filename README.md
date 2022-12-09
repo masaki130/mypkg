@@ -1,8 +1,8 @@
-# mypkg(ROS2のパッケージ)
+# mypkg
 * mypkgという名前のリポジトリに、以下の2つのパッケージを作成した.
   * talker.py
   * listener.py
-![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
+* ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
 # 機能
 * talker.pyで数字をカウントし、トピックを通じて送信する.
