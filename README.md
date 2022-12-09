@@ -1,6 +1,3 @@
-# mypkg
-mypkgというリポジトリにros2のパッケージを作成しました.
-
 # ROS2のパッケージ
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
@@ -8,11 +5,24 @@ mypkgというリポジトリにros2のパッケージを作成しました.
 * talker.pyで数字をカウントしてトピックを通じて送信する.
 * listener.pyでトピックからメッセージを受信して、結果を画面に表示する.
 
-# mypkgの導入方法
-* 任意のディレクトリで以下のコマンドを入力すると、pcにmypkgを取り込むことが可能.
+# mypkgの導入
+* 任意のディレクトリで以下のコマンドを入力すると、pcにmypkgという名前のROS2のパッケージを取り込むことが可能.
 ```
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg 
+```
+#　送受信例
+* 送信例
+  * 1つ目の端末で以下のコマンドを入力する.
+```
+$ colcon build
+$ ros2 run mypkg talker
+```
+
+* 受信例
+  * 1つ目の端末を開いた状態で、2つ目の端末を開き、以下のコマンドを入力する.
+```
+$ ros2 run mypkg listener
 ```
 
 ## 必要なソフトウェア
