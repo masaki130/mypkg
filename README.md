@@ -2,7 +2,7 @@
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
 # mypkg (マイパッケージ)
-* mypkgという名前のリポジトリの中に、同名のディレクトリを作成し、その中に以下の2つのソースファイルを作成した.
+* mypkgという名前のリポジトリに、同名のディレクトリを作成し、以下の2つのソースファイルを作成した.
   * talker.py
   * listener.py
 
