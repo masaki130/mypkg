@@ -20,7 +20,7 @@ $ ros2 pkg create mypkg --build-type ament_python
 $ tree
 ```
 
-* 次に以下のコマンドを入力して、pcにmypkgを取り込む.
+* 次に、以下のコマンドを入力して、pcにmypkgを取り込む.
 ```
 $ cd ros2_ws/src
 $ git clone git@github.com:masaki130/mypkg.git
