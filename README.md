@@ -2,13 +2,13 @@
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 
 # mypkg (マイパッケージ)
-* mypkgという名前のリポジトリに、以下の2つのパッケージを作成した.
+* mypkgという名前のリポジトリに、以下の2つのソースファイルを作成した.
   * talker.py
   * listener.py
 
 # 機能
-* "talker.py"は、数字をカウントし、トピックを通じて"listener.py"へ送信する.
-* "listener.py"は、トピックから"talker.py"のカウント数を受信し、その結果を画面に表示する.
+* "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
+* "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
 
 # mypkgの導入
 * まず以下のコマンドを入力して、初期状態のパッケージを作成する.
