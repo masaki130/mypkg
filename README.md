@@ -3,7 +3,7 @@
   * talker.py
   * listener.py
 # テスト
-i![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
+  ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 # 機能
 * "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
 * "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
