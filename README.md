@@ -2,7 +2,7 @@
 * mypkgという名前のリポジトリに、同名のディレクトリを作成し、以下の2つのソースファイルを作成した.
   * talker.py
   * listener.py
-# テスト
+# 
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 # 機能
 * "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
@@ -20,7 +20,7 @@ $ cd ros2_ws/src
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg
 ```
-# コマンドをインストール
+# コマンドのインストール
 ```
 $ colcon build
 $ source ~/ros2_ws/install/setup.bash
