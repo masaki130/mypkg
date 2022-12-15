@@ -16,7 +16,8 @@ $ cd ros2_ws/src
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg
 ```
-# コマンドのインストール
+# ビルド
+* 以下のコマンドを入力してmypkgを読み込む.
 ```
 $ cd ros2_ws
 $ colcon build
