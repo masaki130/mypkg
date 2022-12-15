@@ -1,24 +1,19 @@
-# ROS2パッケージ
-![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
-
 # mypkg (マイパッケージ)
 * mypkgという名前のリポジトリに、同名のディレクトリを作成し、以下の2つのソースファイルを作成した.
   * talker.py
   * listener.py
-
+# テスト
+i![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 # 機能
 * "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
 * "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
 
 # mypkgの導入
-* まず、以下のコマンドを入力して、初期状態のパッケージを作成する.
+* まず、以下のコマンドを入力する.
 ```
 $ cd
 $ mkdir -p ros2_ws/src
-$ tree ros2_ws/
 $ cd ~/ros2_ws/src/
-$ ros2 pkg create mypkg --build-type ament_python
-$ tree
 ```
 
 * 次に、以下のコマンドを入力して、pcにmypkgを取り込む.
