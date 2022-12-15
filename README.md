@@ -54,5 +54,7 @@ $ ros2 run mypkg listener
     * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * LICENSEへのリンク
     * [LICENSE](https://github.com/masaki130/ros2_2022/blob/main/LICENSE)
-    * [Apache](https://github.com/masaki130/mypkg/blob/lesson10-1/test/test_copyright.py)
+    * [Apache2.0_1](https://github.com/masaki130/mypkg/blob/lesson10-1/test/test_copyright.py)
+    * [Apache2.0_2](https://github.com/masaki130/mypkg/blob/lesson10-1/test/test_pep257.py)
+    * [Apache2.0_3](https://github.com/masaki130/mypkg/blob/lesson10-1/test/test_flake8.py)
 * © 2022 Masaki Mitani
