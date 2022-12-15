@@ -3,32 +3,33 @@
   * talker.py
   * listener.py
 # テスト
-  ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
 # 機能
 * "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
 * "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
-
+# 
 # mypkgの導入
 * まず、以下のコマンドを入力する.
 ```
-$ cd
 $ mkdir -p ros2_ws/src
-$ cd ~/ros2_ws/src/
 ```
 
 * 次に、以下のコマンドを入力して、pcにmypkgを取り込む.
 ```
 $ cd ros2_ws/src
 $ git clone git@github.com:masaki130/mypkg.git
-$ cd mypkg 
+$ cd mypkg
+```
+# コマンドをインストール
+```
+$ colcon build
+$ source ~/ros2_ws/install/setup.bash
 ```
 # 送受信例
 * 送信例
   * 1つ目の端末(ubuntuの画面)で以下のコマンドを入力する.
 ```
 $ cd ros2_ws
-$ colcon build
-$ source ~/.bashrc
 $ ros2 run mypkg talker
 ```
 
