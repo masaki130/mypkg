@@ -9,13 +9,9 @@
 * "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
 # 
 # mypkgの導入
-* まず、以下のコマンドを入力する.
+* 以下のコマンドを入力して、pcにmypkgを取り込む.
 ```
 $ mkdir -p ros2_ws/src
-```
-
-* 次に、以下のコマンドを入力して、pcにmypkgを取り込む.
-```
 $ cd ros2_ws/src
 $ git clone git@github.com:masaki130/mypkg.git
 $ cd mypkg
