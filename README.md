@@ -52,6 +52,7 @@ $ ros2 run mypkg listener
     * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * LICENSEへのリンク
     * [LICENSE](https://github.com/masaki130/ros2_2022/blob/main/LICENSE)
+* Apache-2.0のライセンスコード
     * [test_copyright.py]
     (https://github.com/masaki130/mypkg/blob/lesson10-1/test/test_copyright.py)
     * [test/test_pep257.py]
