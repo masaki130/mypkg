@@ -1,13 +1,13 @@
 # 目的
-* ROS2のノード(プログラム)間で通信を行い、受信内容を画面上に出力する.
+* ROS2のノード(プログラム)間で通信を行い、受信内容を画面に出力する.
 
-# mypkg (マイパッケージ)
+#
+![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
+
+# 機能
 * mypkgという名前のリポジトリに、同名のディレクトリを作成し、以下の2つのソースファイルを作成した.
   * talker.py
   * listener.py
-# 
-![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
-# 機能
 * "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
 * "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
  
