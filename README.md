@@ -28,7 +28,7 @@ $ source ~/ros2_ws/install/setup.bash
 ```
 # 送受信例
 * 送信例
-  * 1つ目の端末(ubuntuの画面)で以下のコマンドを入力する.
+  * 1つ目の端末(ubuntuの画面上)で以下のコマンドを入力する.
 ```
 $ cd ros2_ws
 $ ros2 run mypkg talker
