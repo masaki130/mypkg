@@ -9,7 +9,7 @@
   * talker.py
   * listener.py
 * "talker.py"は数字をカウントし、それを"listener.py"へ送信する.
-* "listener.py"は"talker.py"のカウント数を受信し、その結果を画面に出力する.
+* "listener.py"は"talker.py"のカウント数を受信し、その結果を画面上に出力する.
  
 # mypkgの導入
 * 以下のコマンドを入力して、pcにmypkgを取り込む.

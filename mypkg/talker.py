@@ -9,7 +9,7 @@ class Talker():
     def __init__(self, node_ref):
         self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
-        node.create_timer(0.5, self.cb)#エラー
+        node.create_timer(0.5, self.cb)
 
     def cb(self):
         msg = Int16()
@@ -19,5 +19,5 @@ class Talker():
 
 rclpy.init()
 node = Node("talker")
-talker = Talker(node)#エラー
+talker = Talker(node)
 rclpy.spin(node)
