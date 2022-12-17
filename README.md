@@ -1,5 +1,5 @@
 # 目的
-* ROS2のノード(プログラム)間で通信を行い、受信内容を画面上に出力する.
+* ROS2のノード(プログラム)間で通信を行い、結果をを画面上に出力する.
 
 #
 ![test](https://github.com/masaki130/mypkg/actions/workflows/test.yml/badge.svg)
